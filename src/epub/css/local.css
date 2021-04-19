@@ -32,11 +32,6 @@ p span.i9{
 	text-indent: -1em;
 }
 
-table{ 
-	margin: 1em auto 1em auto; 
-}
-
-
 table td:last-child{
 	text-align: right;
 	font-variant-numeric: tabular-nums;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-7-38.xhtml">
+		<ignore>
+			<code>s-001</code>
+			<reason>original text calls for a symmetric "cross" symbol which the transcript approximated as a custom-styled "+" but which is better represented by ➕</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7-38.xhtml">
+		<ignore>
+			<code>t-008</code>
+			<reason>only the second ";" is rendered and is true to the page scans</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

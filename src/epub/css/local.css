@@ -11,6 +11,7 @@ abbr.era{
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
+	text-justify: newspaper;
 }
 
 table{

@@ -45,3 +45,14 @@ footer{
 	margin-top: 1em;
 	text-align: right;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+
+/* End all epigraphs */
+

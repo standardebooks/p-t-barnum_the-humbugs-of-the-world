@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-1-8.xhtml">
+		<ignore>
+			<code>s-054</code>
+			<reason>citation does not refer to whole blockquote</reason>
+		</ignore>
+	</file>
+	<file path="epigraph.xhtml">
+		<ignore>
+			<code>c-021</code>
+			<reason>latin italics within italicized element set to roman for contrast</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

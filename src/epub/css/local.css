@@ -53,6 +53,8 @@ footer{
 	-epub-hyphens: none;
 }
 
-
+[epub|type~="epigraph"] blockquote p i{
+	font-family: 'Times New Roman', Times, serif;
+}
 /* End all epigraphs */
 

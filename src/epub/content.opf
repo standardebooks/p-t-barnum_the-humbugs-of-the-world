@@ -152,7 +152,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="publishers-notes.xhtml"/>		
+		<itemref idref="publishers-notes.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="part-1.xhtml"/>

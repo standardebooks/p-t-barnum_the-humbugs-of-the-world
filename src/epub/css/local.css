@@ -9,7 +9,7 @@ abbr.era{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
-	text-align: left;
+	text-align: initial;;
 	text-indent: 0;
 }
 
@@ -36,6 +36,7 @@ table td:last-child{
 	text-align: right;
 	font-variant-numeric: tabular-nums;
 }
+
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
@@ -53,7 +54,6 @@ footer{
 }
 
 [epub|type~="epigraph"] blockquote p i{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Times New Roman", times, serif;
 }
 /* End all epigraphs */
-

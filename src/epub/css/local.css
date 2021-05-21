@@ -57,3 +57,9 @@ footer{
 	font-family: "Times New Roman", times, serif;
 }
 /* End all epigraphs */
+
+.sigil {
+	height: 1.2em;
+	width: 1.2em;
+	vertical-align: middle;
+}

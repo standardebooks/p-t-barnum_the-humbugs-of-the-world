@@ -22,6 +22,10 @@ table{
 	text-indent: 0;
 }
 
+b{
+	text-transform:uppercase;
+}
+
 /* Verse */
 
 [epub|type~="z3998:verse"] p{
@@ -56,23 +60,22 @@ table td:last-child{
 	font-variant: small-caps;
 }
 
-/* All epigraphs */
+/* Epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] blockquote p i{
-	font-family: "Times New Roman", times, serif;
+
+section[epub|type~="epigraph"] > p{
+	text-indent: 0em;	
 }
-/* End all epigraphs */
 
 
-
-/* Full-page epigraphs */
 section[epub|type~="epigraph"]{
 	text-align: center;
+	margin-top: 20vh;
 }
 
 section[epub|type~="epigraph"] > *{
@@ -80,7 +83,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: initial;
+	text-align: center;
 }
 
 @supports(display: flex){
@@ -99,7 +102,8 @@ section[epub|type~="epigraph"] > *{
 	}
 
 }
-/* End full-page epigraphs */
+/* End Epigraphs */
+
 
 /* Letters */
 footer{

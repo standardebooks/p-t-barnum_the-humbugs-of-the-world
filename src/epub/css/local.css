@@ -55,6 +55,10 @@ table td:last-child{
 	font-variant-numeric: tabular-nums;
 }
 
+table tfoot td:last-child{
+  border-top: 1px solid;
+}
+
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }

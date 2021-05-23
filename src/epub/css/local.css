@@ -13,10 +13,6 @@ abbr.era{
 	text-indent: 0;
 }
 
-table{
-	margin: 1em auto 1em auto;
-}
-
 [epub|type~="inscription"]{
 	text-align: center;
 	text-indent: 0;
@@ -50,6 +46,9 @@ p span.i7{
 
 /* End Verse */
 
+table{
+	margin: 1em auto 1em auto;
+}
 
 table td:last-child{
 	text-align: right;

@@ -19,11 +19,10 @@ abbr.era{
 }
 
 b{
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
 
 /* Verse */
-
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -43,7 +42,6 @@ p span.i7{
 	padding-left: 7em;
 	text-indent: -1em;
 }
-
 /* End Verse */
 
 table{
@@ -56,7 +54,7 @@ table td:last-child{
 }
 
 table tfoot td:last-child{
-  border-top: 1px solid;
+	border-top: 1px solid;
 }
 
 [epub|type~="z3998:signature"]{
@@ -70,11 +68,9 @@ table tfoot td:last-child{
 	-epub-hyphens: none;
 }
 
-
 section[epub|type~="epigraph"] > p{
-	text-indent: 0em;	
+	text-indent: 0;
 }
-
 
 section[epub|type~="epigraph"]{
 	text-align: center;
@@ -103,10 +99,8 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
 }
 /* End Epigraphs */
-
 
 /* Letters */
 footer{
@@ -119,11 +113,9 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-
 /* End letters */
 
-
-.sigil {
+.sigil{
 	height: 1.2em;
 	width: 1.2em;
 	vertical-align: middle;

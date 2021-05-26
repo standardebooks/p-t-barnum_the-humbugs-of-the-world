@@ -18,4 +18,12 @@
 			<reason>svg represents a single non-standard character</reason>
 		</ignore>
 	</file>
+	<file path="publishers-notes.xhtml">
+		<ignore>
+			<code>m-031</code>
+			<reason>author of publisher's notes is not named</reason>
+		</ignore>
+	</file>
+
+
 </se-lint-ignore>

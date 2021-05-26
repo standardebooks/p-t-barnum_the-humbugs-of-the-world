@@ -12,4 +12,10 @@
 			<reason>latin italics within italicized element set to roman for contrast</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7-38.xhtml">
+		<ignore>
+			<code>t-026</code>
+			<reason>svg represents a single non-standard character</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>

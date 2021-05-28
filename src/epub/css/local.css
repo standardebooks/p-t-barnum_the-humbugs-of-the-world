@@ -120,3 +120,8 @@ footer{
 	width: 1.2em;
 	vertical-align: middle;
 }
+
+blockquote:first-of-type{
+	text-align: center;
+	text-indent: 0;
+}

@@ -6,22 +6,4 @@
 			<reason>citation does not refer to whole blockquote</reason>
 		</ignore>
 	</file>
-	<file path="epigraph.xhtml">
-		<ignore>
-			<code>c-021</code>
-			<reason>latin italics within italicized element set to roman for contrast</reason>
-		</ignore>
-	</file>
-	<file path="chapter-7-38.xhtml">
-		<ignore>
-			<code>t-026</code>
-			<reason>svg represents a single non-standard character</reason>
-		</ignore>
-	</file>
-	<file path="publishers-notes.xhtml">
-		<ignore>
-			<code>m-031</code>
-			<reason>author of publisher's notes is not named</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>

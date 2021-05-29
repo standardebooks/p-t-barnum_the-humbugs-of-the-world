@@ -54,7 +54,8 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80025758</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">aui</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>		
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Charles Caleb Ward</dc:contributor>
 		<meta property="file-as" refines="#artist">Ward, Charles Caleb</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Charles_Caleb_Ward</meta>
@@ -83,8 +84,9 @@
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/cross.svg" id="cross.svg" media-type="image/svg+xml"/>
+		<item href="images/crosses.svg" id="crosses.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/sigil.svg" id="sigil.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1-1.xhtml" id="chapter-1-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-2.xhtml" id="chapter-1-2.xhtml" media-type="application/xhtml+xml"/>
@@ -142,6 +144,7 @@
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-3.xhtml" id="part-3.xhtml" media-type="application/xhtml+xml"/>
@@ -158,11 +161,9 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="epigraph.xhtml"/>
-		<itemref idref="publishers-notes.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
-		<itemref idref="part-1.xhtml"/>
 		<itemref idref="chapter-1-1.xhtml"/>
 		<itemref idref="chapter-1-2.xhtml"/>
 		<itemref idref="chapter-1-3.xhtml"/>
@@ -171,7 +172,6 @@
 		<itemref idref="chapter-1-6.xhtml"/>
 		<itemref idref="chapter-1-7.xhtml"/>
 		<itemref idref="chapter-1-8.xhtml"/>
-		<itemref idref="part-2.xhtml"/>
 		<itemref idref="chapter-2-9.xhtml"/>
 		<itemref idref="chapter-2-10.xhtml"/>
 		<itemref idref="chapter-2-11.xhtml"/>
@@ -181,39 +181,32 @@
 		<itemref idref="chapter-2-15.xhtml"/>
 		<itemref idref="chapter-2-16.xhtml"/>
 		<itemref idref="chapter-2-17.xhtml"/>
-		<itemref idref="part-3.xhtml"/>
 		<itemref idref="chapter-3-18.xhtml"/>
 		<itemref idref="chapter-3-19.xhtml"/>
 		<itemref idref="chapter-3-20.xhtml"/>
 		<itemref idref="chapter-3-21.xhtml"/>
 		<itemref idref="chapter-3-22.xhtml"/>
 		<itemref idref="chapter-3-23.xhtml"/>
-		<itemref idref="part-4.xhtml"/>
 		<itemref idref="chapter-4-24.xhtml"/>
 		<itemref idref="chapter-4-25.xhtml"/>
 		<itemref idref="chapter-4-26.xhtml"/>
 		<itemref idref="chapter-4-27.xhtml"/>
-		<itemref idref="part-5.xhtml"/>
 		<itemref idref="chapter-5-28.xhtml"/>
 		<itemref idref="chapter-5-29.xhtml"/>
 		<itemref idref="chapter-5-30.xhtml"/>
-		<itemref idref="part-6.xhtml"/>
 		<itemref idref="chapter-6-31.xhtml"/>
 		<itemref idref="chapter-6-32.xhtml"/>
 		<itemref idref="chapter-6-33.xhtml"/>
-		<itemref idref="part-7.xhtml"/>
 		<itemref idref="chapter-7-34.xhtml"/>
 		<itemref idref="chapter-7-35.xhtml"/>
 		<itemref idref="chapter-7-36.xhtml"/>
 		<itemref idref="chapter-7-37.xhtml"/>
 		<itemref idref="chapter-7-38.xhtml"/>
-		<itemref idref="part-8.xhtml"/>
 		<itemref idref="chapter-8-39.xhtml"/>
 		<itemref idref="chapter-8-40.xhtml"/>
 		<itemref idref="chapter-8-41.xhtml"/>
 		<itemref idref="chapter-8-42.xhtml"/>
 		<itemref idref="chapter-8-43.xhtml"/>
-		<itemref idref="part-9.xhtml"/>
 		<itemref idref="chapter-9-44.xhtml"/>
 		<itemref idref="chapter-9-45.xhtml"/>
 		<itemref idref="chapter-9-46.xhtml"/>
@@ -221,7 +214,18 @@
 		<itemref idref="chapter-9-48.xhtml"/>
 		<itemref idref="chapter-9-49.xhtml"/>
 		<itemref idref="chapter-9-50.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
+		<itemref idref="part-3.xhtml"/>
+		<itemref idref="part-4.xhtml"/>
+		<itemref idref="part-5.xhtml"/>
+		<itemref idref="part-6.xhtml"/>
+		<itemref idref="part-7.xhtml"/>
+		<itemref idref="part-8.xhtml"/>
+		<itemref idref="part-9.xhtml"/>
+		<itemref idref="publishers-notes.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>

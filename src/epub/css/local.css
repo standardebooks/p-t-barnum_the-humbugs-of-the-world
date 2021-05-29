@@ -124,3 +124,8 @@ footer{
 	text-align: center;
 	text-indent: 0;
 }
+
+figure{
+	display: inline;
+	margin:auto;
+}

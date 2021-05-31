@@ -115,7 +115,7 @@ footer{
 }
 /* End letters */
 
-.sigil{
+[epub|type~="z3998:illustration"]{
 	height: 1.2em;
 	vertical-align: middle;
 }
@@ -123,9 +123,4 @@ footer{
 #chapter-7-38 blockquote:first-of-type{
 	text-align: center;
 	text-indent: 0;
-}
-
-figure{
-	display: inline;
-	margin:auto;
 }

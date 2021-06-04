@@ -18,10 +18,6 @@ abbr.era{
 	text-indent: 0;
 }
 
-b{
-	text-transform: uppercase;
-}
-
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -61,20 +57,21 @@ table tfoot td:last-child{
 	font-variant: small-caps;
 }
 
-/* Epigraph */
+/* All epigraphs */
 [epub|type~="epigraph"]{
-	font-style: normal;
+	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
 }
 
-section[epub|type~="epigraph"] > p{
-	text-indent: 0;
+[epub|type~="epigraph"] i{
+	font-style: normal;
 }
+/* End all epigraphs */
 
+/* Full-page epigraphs */
 section[epub|type~="epigraph"]{
 	text-align: center;
-	margin-top: 20vh;
 }
 
 section[epub|type~="epigraph"] > *{
@@ -82,7 +79,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: center;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -100,7 +97,7 @@ section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
 }
-/* End Epigraphs */
+/* End full-page epigraphs */
 
 /* Letters */
 footer{

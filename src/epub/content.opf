@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/p-t-barnum/the-humbugs-of-the-world</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-06-04T23:27:04Z</dc:date>
+		<meta property="dcterms:modified">2021-06-04T23:27:04Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -30,6 +30,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Humbugs of the World</dc:title>
 		<meta property="file-as" refines="#title">Humbugs of the World, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">An Account of the Humbugs, Delusions, Impositions, Quackeries, Deceits and Deceivers Generally, in All Ages</dc:title>
 		<meta property="file-as" refines="#subtitle">Account of the Humbugs, Delusions, Impositions, Quackeries, Deceits and Deceivers Generally, in All Ages, An</meta>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
@@ -40,19 +41,16 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85064657</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">American archetype and cultural founding father Phineas Taylor Barnum shares a varied collection of anecdotes that he deems “humbugs”—fodder for the gullible, deserving of skepticism—with the stated goal of making his fellow citizens a little wiser and more skeptical.</dc:description>
+		<dc:description id="description">American archetype and cultural founding father P. T. Barnum shares a collection of anecdotes that he deems “humbugs”—fodder for the gullible, deserving of skepticism—with the goal of making his fellow citizens a little wiser and more skeptical.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;“Humbug … I won’t believe it” is Scrooge’s response when confronted by the ghost of his dead partner Jacob Marley in “A Christmas Carol” and just as surely as Dickens know that ghosts are humbug, so too does &lt;a href="https://standardebooks.org/ebooks/p-t-barnum"&gt;Phineas Taylor “&lt;abbr&gt;P.T.&lt;/abbr&gt;” Barnum&lt;/a&gt;, when writing a generation later. For Barnum, humbug begins in the Garden of Eden with the temptation of Even and permeates all of history, through every age and in every nation, right down to the “Great Spirit Postmaster” publishing ghost-letters in Barnum’s own time from veterans who had just perished in the Civil War.&lt;/p&gt;
-			&lt;p&gt;Called the “Prince of Humbugs,” though Barnum is no cynic, he sets out to prove his point with this catalog of colorful characters and events, with a mocking commentary about how a sensible person should be more skeptical in each case. He does go after the ghosts as well as the witches and spiritualists. But he also calls out “humbug” on shady investment schemes, hoaxes, swindlers, guerilla marketers, and political dirty tricksters before shining a light on the patent medicines of his day, impure foods, and adulterated drinks. As a raconteur, Barnum is conversational and avuncular, sharing the wisdom of his years and opening an intimate window into the New England of the mid-19th century.&lt;/p&gt;
-			&lt;p&gt;Though in his own words a “showman by profession,” the author was an accomplished impresario and successful politician, operating both a circus and museum that bore his name as well as holding city and state-level public office. P. T. Barnum was an American archetype, and the razzle-dazzle of modern American culture can look back to him as one of its founding fathers.&lt;/p&gt;
-			&lt;p&gt;The author’s stated goal is to make his fellow citizens wiser and a little less gullible. In this regard, this work has enduring importance.&lt;/p&gt;
+			&lt;p&gt;“Humbug… I won’t believe it,” is Scrooge’s response when confronted by the ghost of his dead partner Jacob Marley in &lt;a hreg="https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"&gt;&lt;i&gt;A Christmas Carol&lt;/i&gt;&lt;/a&gt;, and just as surely as &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Dickens&lt;/a&gt; knows that ghosts are humbugs, so too does &lt;a href="https://standardebooks.org/ebooks/p-t-barnum"&gt;P. T. Barnum&lt;/a&gt;, writing a generation later. For Barnum, humbug begins in the Garden of Eden with the temptation of Eve, and permeates all of history, through every age and in every nation, right down to his own time, where the “Great Spirit Postmaster” publishes ghost letters from veterans recently perished in the Civil War.&lt;/p&gt;
+			&lt;p&gt;Barnum himself was often called the “Prince of Humbugs,” but he was no cynic. In this book he sets out to make his fellow citizens a little wiser via a catalog of colorful characters and events, and mocking commentaries about how a sensible person should be more skeptical. He goes after all kinds of classic humbugs like ghosts, witches, and spiritualists, but he also calls humbug on shady investment schemes, hoaxes, swindlers, guerrilla marketers, and political dirty tricksters, before shining a light on the patent medicines of his day, impure foods, and adulterated drinks. As a raconteur, Barnum is conversational and avuncular, sharing the wisdom of his years and opening an intimate window into the New England of the mid-19th century.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/26640</dc:source>
 		<dc:source>https://archive.org/details/humbugsworld00barnrich</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Humbugs_of_the_World</meta>
+		<meta property="se:word-count">110283</meta>
+		<meta property="se:reading-ease.flesch">55.98</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/p-t-barnum_the-humbugs-of-the-world</meta>
 		<dc:creator id="author">P. T. Barnum</dc:creator>
 		<meta property="file-as" refines="#author">Barnum, P. T.</meta>
@@ -84,6 +82,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>

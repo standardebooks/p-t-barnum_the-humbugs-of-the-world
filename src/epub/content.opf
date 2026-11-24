@@ -50,7 +50,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/26640</dc:source>
 		<dc:source>https://archive.org/details/humbugsworld00barnrich</dc:source>
-		<meta property="schema:wordCount">109741</meta>
+		<meta property="schema:wordCount">109735</meta>
 		<meta property="schema:educationalLevel">55.98</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
